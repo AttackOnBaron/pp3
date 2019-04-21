@@ -14,7 +14,7 @@
 /*--------------------------PARAMETERS INTRODUCED AS PART OF MPI----------------------*/
 int N;  /* Matrix size */
 int ierr; /* Error code for MPI Messages */
-int num_procs = 4; /* Total Number of Processes */
+int num_procs; /* Total Number of Processes */
 MPI_Status status; /* Status for MPI_Recv */
 int my_rank; /* MPI Rank for the current process */
 
