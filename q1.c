@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
   MPI_Comm_rank(MPI_COMM_WORLD, &myrank);
   MPI_Comm_size(MPI_COMM_WORLD, &numnodes);
   
-  N = atoi(argv[1]);
+  // N = atoi(argv[1]);
   
   // allocate A, B, and C --- note that you want these to be
   // contiguously allocated.  Workers need less memory allocated.
