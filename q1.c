@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
   double **A, **B, **C, *tmp;
   double startTime, endTime;
   int numElements, offset, stripSize, myrank, numnodes, N, i, j, k;
-  numnodes = 8;
+  numnodes = 16;
   N = 2000;
   
   MPI_Init(&argc, &argv);
